@@ -2,7 +2,7 @@
 source $ad_hdl_dir/projects/common/zed/zed_system_bd.tcl
 
 # specify the spi reference clock frequency in MHz
-set spi_clk_ref_frequency 100
+set spi_clk_ref_frequency 200
 
 # specify ADC resolution -- supported resolutions 16/18/20 bits
 set adc_resolution 20
