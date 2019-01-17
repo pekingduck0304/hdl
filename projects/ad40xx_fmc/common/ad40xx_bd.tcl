@@ -80,7 +80,7 @@ current_bd_instance /spi_ad40xx
   ad_connect execution/spi m_spi
 
   ad_connect spi_clk offload/spi_clk
-  ad_connect clk offload/ctrl_clk
+  ad_connect spi_clk offload/ctrl_clk
   ad_connect spi_clk execution/clk
   ad_connect clk axi/s_axi_aclk
   ad_connect spi_clk axi/spi_clk
